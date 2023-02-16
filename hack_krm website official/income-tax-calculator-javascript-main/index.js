@@ -48,7 +48,7 @@ form2.addEventListener('submit', (event)=>{
     event.preventDefault();
 
     const income2 = Number(form2.income2.value);
-    const tax2 = calculatorIncomeTax1(income2);
+    const tax2 = calculatorIncomeTax2(income2);
 
     alert(`The income tax of an income of ${income2} is: ${tax2}`);
 })
